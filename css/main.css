@@ -1,0 +1,219 @@
+* {
+	font-family: "Lato", sans-serif;
+}
+/* NAVIGATION */
+.logo {
+	background-color: #F6F9F9;
+	padding: 25px 100px;
+}
+
+/* CALL TO ACTION */
+#message {
+	background-image: url(http://codifyacademy.com/week1/advanced/img/bg1.png);
+	height: 800px;
+	text-align: center;
+}
+	/* inserts image behind text */
+#message h1 {
+	color: #FFFFFF;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+		/* space between lines */
+	margin-bottom: 60px;
+	margin-top: 0;
+	padding-top: 225px;
+	text-align: center;
+}
+#message hr {
+	border-color: #15A4FA;
+	margin: 0 auto;
+	width: 50%;
+}
+	/* line created by <hr> to show break in theme */
+#message h2 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 47px;
+	text-align: center;
+}
+#message button {
+	background-color: transparent;
+	border-bottom: transparent;
+	border-right: transparent;
+	border-top: 1px solid #15A4FA;
+	border-left: 1px solid #15A4FA;
+	border-radius: 2px;
+		/* rounds out border slightly; larger px = more round */
+	color: #FFFFFF;
+	padding: 10px 15px;
+	cursor: pointer;
+		/* mouse pointer becomes finger point instead of arrow */
+}
+#message a {
+	color: #FFFFFF;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+/* COMPANY INFO */
+#info {
+	background-color: #f6F9F9;
+	padding: 50px;
+	text-align: center;
+}
+#info h1 {
+	color: #2D3950;
+	font-size: 40px;
+	font-weight: 400;
+}
+#info p {
+	color: #999999;
+	font-weight: 400;
+	line-height: 32px;
+	margin: 0 auto;
+	width: 74%;
+}
+
+/* FEATURES */
+#features {
+	text-align: center;
+}
+#features .box {
+	display: inline-block;
+	font-weight: 400;
+	margin: 5% 1%;
+	padding: 10px;
+	width: 21%;
+}
+#features .iconBox {
+	background: linear-gradient(to right, #1E5799 0%, #207CCA 50%, #2989D8 50%, #7DB9E8 100%);
+	height: 100px;
+	margin: 0 auto;
+	width: 100px;
+}
+#features i {
+	color: #FFFFFF;
+	display: block;
+	font-size: 40px;
+	padding-top: 25px;
+	width: 100%;
+}
+#features h3 {
+	color: #2D3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+#features p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+/* WORK PORTFOLIO */
+#work {
+	background-color: #F6F9F9;
+	font-weight: 400;
+	padding: 50px 0;
+	text-align: center;
+}
+#work h3 {
+	color: #2D3950;
+	font-size: 41px;
+	margin: 0;
+}
+#work p {
+	color: #909090;
+	font-size: 15px;
+	line-height: 23px;
+	text-align: center;
+}
+#work .box {
+	display: inline-block;
+	font-weight: 400;
+	margin: 2% 1% 0%;
+	padding: 10px;
+	width: 25%;
+}
+#work img {
+	background-color: red;
+		/* why is this red? */
+	height: 100%;
+	width: 100%;
+}
+
+/* CONTACT */
+#contact {
+	background-image: url(http://codifyacademy.com/week1/advanced/img/bg2.png);
+	background-position: 50%;
+	height: 500px;
+	padding: 100px;
+	text-align: center;
+}
+#contact h3 {
+	color: #FFFFFF;
+	font-size: 41px;
+	font-weight: 400;
+	margin: 7% 0 0;
+}
+#contact p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+form > input, form > textarea {
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #F6F9F9;
+	color: #FFFFFF;
+	display: block;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 10px;
+	width: 30%;
+}
+form span {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
+}
+form button {
+	background-color: transparent;
+	border: 1px solid #15A4FA;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 25px 0 0 50px;
+	padding: 10px 25px;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #F6F9F9;
+	padding: 10px;
+	height: 50px;
+	padding-left: 50px;
+}
+.footer p {
+	float: left;
+	margin-left: 75px;
+}
+#socialmedia {
+	float: right;
+	margin: 20px 75px 0 0;
+}
+#socialmedia a {
+	border-radius: 2px;
+	background-color: #15A4FA;
+	color: white;
+	margin: 5px;
+	padding: 7px 9px;
+	text-decoration: none;
+}
+
+
+
+
